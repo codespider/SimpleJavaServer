@@ -2,9 +2,8 @@ package com.karthik;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.concurrent.TimeUnit;
 
-public class ConnectionHandler extends Thread {
+class ConnectionHandler extends Thread {
 	private final Socket socket;
 
 	public ConnectionHandler(Socket socket) {
